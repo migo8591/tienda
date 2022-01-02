@@ -1,0 +1,37 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "prueba_bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "concurrently \"npm run watch:scss\" \"npm run dev\" ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o  css/  css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss ",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin imagen/* --out-dir dist/imagen",
+    "usemin": "usemin index.html -d dist -o dist/index.html --htmlmin true && usemin contacto.html -d dist -o dist/contacto.html --htmlmin true && usemin inventario.html -d dist -o dist/inventario.html --htmlmin true && usemin nosotros.html -d dist -o dist/nosotros.html --htmlmin true ",
+    "build":"npm run clean && npm run scss && npm run imagemin && npm run usemin"
+  },
+  "author": "Miguel",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "cssmin": "^0.4.3",
+    "htmlmin": "^0.0.7",
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.0",
+    "onchange": "^7.1.0",
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "concurrently": "^6.5.1",
+    "jquery": "^3.6.0",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.1"
+  }
+}

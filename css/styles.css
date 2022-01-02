@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../imagen/flores_rosadas.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif; }
+
+/* .breadcrumb{
+    background: #ff99ff;
+    opacity: 0.9;
+} */
+.jumbotron {
+  background-color: #98FF98;
+  color: #4b0082;
+  padding-top: 75px;
+  padding-bottom: 10px; }
+
+.footer {
+  padding: 20px, 20px, 20px, 20px;
+  background-color: #98FF98;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#footerII {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; }
+
+.linkFooter {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#parrafo-jumbotron {
+  padding-left: 30px; }
+
+.card-hotel {
+  flex: 1 200px;
+  padding: 1px 5px 1px 5px;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.btn-large {
+  width: 100%; }
+
+.btn-reserve {
+  width: 25%; }
+
+.footer-address-icon {
+  padding-right: 10px;
+  color: green; }
+
+.fa-facebook-square {
+  font-size: 75px; }
+
+.fa-whatsapp-square {
+  color: green;
+  font-size: 75px; }
+
+#parra {
+  padding-left: 20px; }
+
+#chacon {
+  height: 40px;
+  padding: 2px;
+  margin: 10px;
+  background: #ff99ff;
+  opacity: 0.9; }
+
+.comment {
+  color: green;
+  text-align: center; }
+
+h5 {
+  color: #ff0000; }
+
+.pussy {
+  background-color: blue; }
